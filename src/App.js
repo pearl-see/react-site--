@@ -1,11 +1,17 @@
-
-import './App.css';
+import {BodyArea}from'./st_source/BodyArea'
+import {BottomArea}from'./st_source/BottomArea'
+import {TopArea}from'./st_source/TopArea'
+import './st_style/App.css'
 
 function App() {
   return (
-<>
-    123145
-</>
+    <div id='App'>
+
+      <TopArea/>
+      <BodyArea/>
+      <BottomArea/>
+
+    </div>
   );
 }
 
