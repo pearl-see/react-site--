@@ -31,7 +31,7 @@ export function BodyArea({leftMenu}){
       case 6:
       return <LeftMenuZone_6/>;
       default:
-        return <LeftMenuZone_6/>;
+        return <LeftMenuZone_1/>;
     }
   };
   return(
